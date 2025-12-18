@@ -1,15 +1,1 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "login.html",
-      "use": "@vercel/php"
-    }
-  ],
-  "routes": [
-    {
-      "src": "public/login.html",
-      "dest": "login.html"
-    }
-  ]
-}
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
